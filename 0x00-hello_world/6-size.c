@@ -5,7 +5,6 @@
  *
  * Return: Always 0
  */
-main()
 int main(void)
 {
 	char c;
