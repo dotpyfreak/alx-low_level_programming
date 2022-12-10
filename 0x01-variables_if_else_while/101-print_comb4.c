@@ -4,19 +4,19 @@
  */
 int main(void)
 {
-	int a, b, c;
+	int a, b, d;
 
 	for (a = 48; a < 58; a++)
 	{
 		for (b = 49; b < 58; b++)
 		{
-			for (c = 50; c < 58; c++)
+			for (d = 50; d < 58; d++)
 			{
-				if (c > b && b > a)
+				if (d > b && b > a)
 				{
 					putchar(a);
 					putchar(b);
-					putchar(c);
+					putchar(d);
 					if (a != 55 || b != 56)
 					{
 						putchar(',');
