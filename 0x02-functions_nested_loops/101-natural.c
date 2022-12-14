@@ -18,13 +18,13 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			a = sum3 + i;
+			a = a + i;
 		} else if ((i % 5) == 0)
 		{
 			b = b + i;
 		}
 	}
-	c = sum3 + b;
+	c = a + b;
 	printf("%lu\n", c);
 	return (0);
 }
