@@ -6,6 +6,7 @@
  * @b: any given number
  * Return: the product of two numbers
  */
+
 int _mul(int a, int b)
 {
 	return (a * b);
