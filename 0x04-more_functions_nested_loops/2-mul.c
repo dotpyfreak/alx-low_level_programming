@@ -1,4 +1,4 @@
-#inlclude "main.h"
+#include "main.h"
 
 /**
  * _mul - Checks for a digit ( 0 through 9)
