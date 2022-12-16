@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	long int n;
 
@@ -24,7 +24,7 @@ int main (void)
 			n = n / div;
 			if (n == 1)
 			{
-				printf("%d",maxi);
+				printf("%d", maxi);
 				printf("\n")
 				ans = 1;
 				break;
