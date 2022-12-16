@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints a list of integers from 1 to 100 with a twist
@@ -13,19 +14,15 @@ int main(void)
 	for (a = 1; a <= 100; a++)
 	{
 		if (a % 15 == 0)
-			printf("FizzBuzz");
-			putchar(' ');
+			printf("FizzBuzz ");
 		else if (a % 5 == 0)
-			printf("Buzz");
-			putchar(' ');
+			printf("Buzz ")
 		else if (a % 3 == 0)
-			printf("Fizz");
-			putchar(' ');
-		else if
+			printf("Fizz ");
+		else
 			printf("%d ", a);
-			putchar(' ');
 	}
-	putchar('\n');
+	printf('\n');
 	return (0);
 }
 
