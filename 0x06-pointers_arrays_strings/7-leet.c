@@ -18,7 +18,10 @@ char *leet(char *s)
 		for (i = 0; i < 5; i++)
 		{
 			if (s[b] == small[i] || s[b] == cap[i])
+			{
 				s[b] = leet_[i];
+				break;
+			}
 		}
 		b++;
 	}
