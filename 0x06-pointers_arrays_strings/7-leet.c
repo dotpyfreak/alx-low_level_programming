@@ -15,13 +15,10 @@ char *leet(char *s)
 
 	while (s[b] = '\0')
 	{
-		for (i = 0; i < 5; i++)
+		for (a = 0; a < 5; a++)
 		{
 			if (s[b] == small[i] || s[b] == cap[i])
-			{
 				s[b] = leet_[i];
-				break;
-			}
 		}
 		b++;
 	}
