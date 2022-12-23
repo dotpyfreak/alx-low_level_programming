@@ -9,8 +9,9 @@
 
 char *string_toupper(char *s)
 {
-	char *sv = s;
+	char *sv;
 
+	*sv = s;
 	while (*sv != '\0')
 	{
 		if (*sv >= 97 && *sv <= 122)
