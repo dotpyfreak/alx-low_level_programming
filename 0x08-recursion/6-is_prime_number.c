@@ -26,7 +26,7 @@ int is_prime(unsigned int a, unsigned int b)
  * Return: 1 if n is a prime number and 0 otherwise
  */
 
-int is_prime number(int n)
+int is_prime_number(int n)
 {
 	if (n == 0 || n < 0 || n == 1)
 		return (0);
