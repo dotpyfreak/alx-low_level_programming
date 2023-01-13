@@ -4,7 +4,7 @@
 
 /**
  * _memset - fills memory with a constant byte
- * @s: input pointer that represents memory blockto fill
+ * @s: input pointer that represents memory block to fill
  * @b: characters to fill/set
  * @n: number of bytes to be filled
  * Return: pointer to the filled memory area
@@ -64,7 +64,6 @@ void multiply(char *s1, char *s2)
 	total_l = l1 + l2;
 	ptr = _calloc(sizeof(int), total_l);
 
-	/* store our pointer address to free later */
 	temp = ptr;
 
 	for (l1--; l1 >= 0; l1--)
@@ -97,8 +96,8 @@ void multiply(char *s1, char *s2)
 
 
 /**
- * main - a program that multiplies
- * two positive numbers
+ * main - Entry point
+ * Description: a program that multiplies two positive numbers
  * @argc: number of arguments
  * @argv: arguments array
  * Return: 0 on success 98 on faliure
