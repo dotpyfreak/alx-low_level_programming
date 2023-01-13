@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 
 /**
  * _memset - fills memory with a constant byte
@@ -25,7 +25,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @size: size of each element
  * Return: pointer with new allocated memory
  * or NULL if it fails
- *  */
+ */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
