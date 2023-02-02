@@ -1,1 +1,1 @@
-Learning to code in C
+Learning a low-level language
